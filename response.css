@@ -1,6 +1,14 @@
 @media (max-width: 480px) {
+    .main {
+        width: 99%;
+    }
     .contain {
         display: block;
         flex-direction: column;
     }
+    .skills {
+        width: 100%;
+        padding-left: 1.4rem;
+    }
+
 }
