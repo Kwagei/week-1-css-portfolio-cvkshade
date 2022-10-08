@@ -94,12 +94,13 @@ header nav ul li a:hover {
 
 .img {
     width: 24%;
+    
 }
 
 .img img {
-    width: 95%;
+    width: 100%;
     object-fit: contain;
-    box-shadow: 1px 1px gainsboro;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 
@@ -117,6 +118,7 @@ header nav ul li a:hover {
     background-color: white;
     border-radius: 10px;
     margin-top: 3rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 /* Skills */
@@ -124,6 +126,8 @@ header nav ul li a:hover {
 .skills {
     width: 40%;
     padding-left: 2.4rem;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px 0px, rgba(0, 0, 0, 0.3) 0px 0px 0px -8px; */
+    
 }
 
 .skills h3 {
@@ -285,6 +289,7 @@ header nav ul li a:hover {
     margin-top: 2rem;
     margin-bottom: 0;
     background-color: transparent;
+    width: 62%;
 }
 
 #signal i {
