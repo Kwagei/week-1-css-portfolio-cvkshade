@@ -336,7 +336,9 @@ header nav ul li a:hover {
         top: 0;
         width: 100%;
     }
-
+    .btn {
+        margin-right: 1rem;
+    }
     .logo p {
         text-align: center;
         font-size: 1.5rem;
