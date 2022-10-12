@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,900;1,100;1,200;1,300;1,400;1,600;1,800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main {
+    background-color: #9bd6ed00;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Header styles */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.logo {
+    padding: 1rem 6.2rem;
+    background-color: firebrick;
+    color: white;
+    border: 2px solid black;
+
+}
+
+.logo p {
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    text-shadow: 1px black;
+}
+
+nav {
+    padding: 0.1rem 1rem;
+    background-color: black;
+    display: flex;
+    align-items: center;
+
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+    width: 100%;
+    padding: 0.8rem 1rem;
+    border: 1px 1px rgb(255, 255, 255), -1px -1px rgb(255, 252, 252);
+
+}
+
+header nav ul li {
+    padding-left: 1rem;
+    background-color: firebrick;
+    flex-grow: 1;
+    padding: 0.8rem 1rem;
+}
+
+header nav ul li:hover {
+    background-color: white;
+    color: black;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+header nav ul li a:hover {
+    color: black;
+}
+
+
+
+/* Main Styles */
+.contain {
+    display: flex;
+    margin: 1rem 0.3rem;
+}
+
+.img {
+    width: 24%;
+    
+}
+
+.img img {
+    width: 100%;
+    object-fit: contain;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+
+.intro {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+.intro p {
+    font-size: 1rem;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 3rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+/* Skills */
+
+.skills {
+    width: 40%;
+    padding-left: 2.4rem;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px 0px, rgba(0, 0, 0, 0.3) 0px 0px 0px -8px; */
+    
+}
+
+.skills h3 {
+    font-size: 2rem;
+    border-bottom: 2px solid gainsboro;
+}
+
+.skills ul {
+    list-style-type: none;
+}
+
+.skills ul li {
+    padding-bottom: 0.9rem;
+    padding: 0.2rem 1rem;
+    border-bottom: 1px solid gainsboro;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.541);
+}
+
+.skills .rating {
+    margin-left: 3rem;
+    background-color: rgb(255, 255, 255);
+    color: rgb(95, 22, 22);
+    font-weight: 700;
+    padding: 0.6rem 0.3rem;
+    font-size: 1rem;
+    border-radius: 50%;
+    border: 3px solid firebrick;
+}
+
+.skills .skill {
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.skills button {
+    padding: 0.8rem 3.1rem;
+    float: right;
+    margin-top: 1rem;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 600;
+    background-color: firebrick;
+    border: 3px solid rgba(0, 0, 0, 0.103);
+    border-radius: 5px;
+
+}
+
+.skills button:hover {
+    background-color: white;
+    color: firebrick;
+    cursor: pointer;
+}
+
+/* Social */
+
+.links {
+    width: 50%;
+    margin: 1rem 0rem;
+    position: fixed;
+    bottom: 0;
+    box-shadow: 1px 1px solid gainsboro;
+}
+
+.links ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.links ul li {
+    width: 5rem;
+}
+
+.links .icons {
+    padding: 1rem 0;
+    background-color: rgba(255, 255, 255, 0.103);
+    border: 1px solid rgba(0, 0, 0, 0.082);
+    border-radius: 5px 5px 0px 0px;
+}
+
+.links .icons li {
+    flex-grow: 1;
+}
+
+.links .icons li a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.links .icons li a i {
+    font-size: 2.5rem;
+}
+
+.social li {
+    flex-grow: 1;
+    text-align: center;
+    color: white;
+    background-color: firebrick;
+    font-weight: 600;
+
+}
+
+.fa-facebook {
+    color: blue;
+}
+
+#insta {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+    /* Also define standard property for compatibility */
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    font-size: 40px;
+    /* change this to change the size*/
+
+}
+
+.fa-github {
+    color: black;
+}
+
+.fa-linkedin {
+    color: #0072b1;
+}
+
+.fa-discord {
+    color: rgb(47, 58, 73);
+}
+
+.fa-discord:hover {
+    transform: translateX(-3px);
+    transition: ease-in 5ms;
+}
+
+.fa-linkedin:hover {
+    transform: translateY(-3px);
+    transition: 5ms;
+}
+
+.fa-github:hover {
+    transform: translateX(3px);
+}
+
+.fa-facebook {
+    transform: translateY(-3px);
+    transition: ease-in-out 3ms;
+}
+
+/* Signal Social */
+
+#signal {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 0;
+    background-color: transparent;
+    width: 62%;
+}
+
+#signal i {
+    color: firebrick;
+    padding: 0.5rem 1rem;
+}
+
+.control-flow {
+    /* background-color: #fd5949; */
+    width: 99%;
+}
+
+
+/* Media Queries */
+
+@media (max-width: 1080) {
+    .main {
+        background-color: #9bd6ed00;
+        width: 100vw;
+        height: 100%;
+    }
+}
+
+@media (max-width: 460px) {
+
+    /* Header */
+    header {
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        width: 100vw;
+        margin-top: 0px;
+    }
+
+    header .logo {
+        padding: 0;
+        height: 4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(255, 255, 255);
+        border: none;
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    .btn {
+        margin-right: 1rem;
+    }
+    .logo p {
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: firebrick;
+        text-transform: uppercase;
+    }
+
+    header nav {
+        display: none;
+    }
+
+    .main {
+        width: auto;
+        /* margin: 10px; */
+    }
+
+    .contain {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0rem;
+        width: 100%;
+        padding: 0;
+        padding-bottom: 6rem;
+    }
+
+    .img {
+        width: 100%;
+        margin-top: 3rem;
+    }
+
+    /* Header Fix */
+
+    .img img {
+        width: 100%;
+        box-shadow: 1px 1px gainsboro;
+    }
+
+    .control-flow {
+        width: fit-content;
+    }
+
+    .intro p {
+        margin-top: 5px;
+    }
+
+    .intro {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        padding: 0;
+    }
+
+    .skills {
+        width: 100%;
+        padding: 0rem;
+
+    }
+
+    .skills h3 {
+        margin: 1rem 0.2rem;
+    }
+
+    .links {
+        width: 100%;
+        margin: 0rem;
+        /* position: fixed; */
+        background-color: #fff;
+        bottom: 0;
+        box-shadow: 1px 1px solid gainsboro;
+    }
+
+    #signal {
+        display: none;
+    }
+
+    .links ul.social {
+        display: none;
+    }
+}
